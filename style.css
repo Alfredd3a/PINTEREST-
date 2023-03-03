@@ -1,0 +1,207 @@
+body{
+    background-color: rgb(255, 255, 255)
+}
+.nav-bar a input div{
+    display: inline-block;
+    line-height: normal;
+}
+.header img{
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin: 15px;
+}
+.hoy{
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin: 15px;
+}
+.crear{
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin: 15px;
+}
+
+header{
+    display: flex;
+}
+.iconos{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 5px;
+    
+}
+
+.inicio:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.hoy:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.crear:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.notificacion{
+    margin: 10px;
+}
+.notificacion:hover{
+    opacity: 90%;
+    color: black;
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 10px;
+}
+.mensaje{
+    margin: 10px;
+    
+}
+.mensaje img{
+    opacity: 60%;
+}
+.mensaje:hover{
+    opacity: 90%;
+    color: black;
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 10px;
+}
+.perfil{
+    margin: 10px;
+}
+.perfil:hover{
+    opacity: 90%;
+    color: black;
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 1px;
+}
+.finder{
+    background-color: rgb(228, 226, 226);
+    width: 600px;
+    height: 30px;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 10px;
+    border: rgb(228, 226, 226) solid;
+    margin-top: 10px;
+}
+.logo-img {
+    width: 50px !important;
+    margin-left: 50px !important;
+    width: 80px;   
+}
+
+
+main{
+    margin-top: 2em;
+}
+.conten img{
+    max-width: 100%;
+    border-radius: 10%;
+    margin-bottom: 3em;
+}
+.conten{
+    position: relative;
+    columns: 4 200px;
+    column-gap: 1em;
+    
+}
+
+.conten img:hover{
+    cursor: pointer;
+}
+
+.conten img:hover{
+    cursor: pointer;
+    opacity: 75%;
+}
+.send{
+    background-color: rgb(179, 179, 179);
+    border-radius: 30px;
+    width: 50%;
+}
+.card{
+    display: flex;
+}
+.card .guardar{
+    display: flex;
+    right: 100px;
+    padding: 20px;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0%;
+}
+.guardar:hover{
+    opacity: 1%;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: red solid;
+    border-radius: 30px;
+    height: 30px;
+}
+.guardar{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.card .guardar:hover{
+    opacity: 100%;
+}
+
+.footer{
+    margin: 80px auto;
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 23, 23);
+}
+
+@media  body {
+    background-color: blav;
+    
+}
